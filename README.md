@@ -1,7 +1,13 @@
 BONE-V Simulator
 =================
 
-BONE-V network-cycle-accurate (NCA) simulator is designed to explore the architectural tradeoffs and deliver the optimal network architecture for BONE-V processor. BONE-V is the codename for a vision processor, which is developed by KAIST Semiconductor System Laboratory (SSL) and it stands for Basic On-chip NEtwork for Vision application. The simulator is written in C/C++ and mainly based on SystemC. It consists of Loosely-timed core models and Approximately-timed Network-on-Chip (NoC) models.
+BONE-V network-cycle-accurate (NCA) simulator is designed to explore the 
+architectural tradeoffs and deliver the optimal network architecture for 
+BONE-V processor. BONE-V is the codename for a vision processor, which is 
+developed by KAIST Semiconductor System Laboratory (SSL) and it stands for 
+Basic On-chip NEtwork for Vision application. The simulator is written in 
+C/C++ and mainly based on SystemC. It consists of Loosely-timed core models 
+and Approximately-timed Network-on-Chip (NoC) models.
 
 
 Prerequisites
@@ -10,15 +16,14 @@ Prerequisites
 This simulator requires additional libraries described below
 
 ### SystemC with TLM library
-  Necessary for the approximately/loosely-timed simulation. You muse set the
-  environment variable, **SYSTEMC_ROOT**, so that the system can find SystemC,
-  TLM properly. Alternatively, the -DSYSTEMC_ROOT=/path/to/systemc option
-  should be used with cmake command. The recommended version is SystemC 2.3.1
-  or newer, and TLM 2.0.3 or newer
+  You muse set the environment variable, **SYSTEMC_ROOT**, so that the system
+  can find SystemC, TLM libraries properly. Alternatively, you can provide the
+  additional option, **-DSYSTEMC_ROOT=/path/to/systemc** with cmake command.
+  The recommended version is SystemC 2.3.1 or newer, and TLM 2.0.3 or newer
 
 ### Boost
-  The environment variable, **BOOST_ROOT**, is required to build mVPU
-  simulator. Alternatively, the -DBOOST_ROOT=/path/to/boost option should be
+  The environment variable, **BOOST_ROOT**, is required to build BONE-V network
+  simulator. Alternatively, the **-DBOOST_ROOT=/path/to/boost** option can be
   used with cmake command. The recommended version is 1.5.6 or newer.
 
 ### OpenCV
