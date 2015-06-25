@@ -16,14 +16,14 @@ Prerequisites
 This simulator requires additional libraries described below
 
 ### SystemC with TLM library
-  You muse set the environment variable, **SYSTEMC_ROOT**, so that the system
+  You muse set the environment variable, `SYSTEMC_ROOT` so that the system
   can find SystemC, TLM libraries properly. Alternatively, you can provide the
-  additional option, **-DSYSTEMC_ROOT=/path/to/systemc** with cmake command.
+  additional option, `-DSYSTEMC_ROOT=/path/to/systemc` with cmake command.
   The recommended version is SystemC 2.3.1 or newer, and TLM 2.0.3 or newer
 
 ### Boost
-  The environment variable, **BOOST_ROOT**, is required to build BONE-V network
-  simulator. Alternatively, the **-DBOOST_ROOT=/path/to/boost** option can be
+  The environment variable, `BOOST_ROOT` is required to build BONE-V network
+  simulator. Alternatively, the `-DBOOST_ROOT=/path/to/boost` option can be
   used with cmake command. The recommended version is 1.5.6 or newer.
 
 ### OpenCV
