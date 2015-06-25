@@ -29,31 +29,22 @@ Coding Style
 
 The typical conventions look something like this:
 
-* variable_names_in_snake_case : Variable, a mutable thing. All lower case, words separated by underscores.
+* **variable_names_in_snake_case** : Variable, a mutable thing. All lower case, words separated by underscores.
 
-* CONSTANTS_IN_ALL_CAPS : Constant, an immutable thing. All upper case, words separated by underscores.
+* **CONSTANTS_IN_ALL_CAPS** : Constant, an immutable thing. All upper case, words separated by underscores.
 
-* functionAndMethodNames : Functions and methods, immutable and callable things. Mixed camel case, first letter always lower case.
+* **functionAndMethodNames** : Functions and methods, immutable and callable things. Mixed camel case, first letter always lower case.
 
-* StructAndClassNames : Structs and classes, immutable and instantiatable things. Mixed camel case, first letter always upper case.
+* **StructAndClassNames** : Structs and classes, immutable and instantiatable things. Mixed camel case, first letter always upper case.
 
-* systemc_tlm_function : The SystemC TLM essential functions are all lowercase, with underscores between
+* **systemc_tlm_function** : The SystemC TLM essential functions are all lowercase, with underscores between
 words.
 
 
 Directories
 -----------
 
-  +- include/       - Fundamental header files
-  +- noc/           - Approximately-timed NoC model 
-  +- target/        - executable use cases
-  | +- tile-sift/   - Visual attention based tile-SIFT (BONE-V S/W) in BV6
-  | +- mesh/        - Mesh variation of BV6
-  | +- ring/        - Ring variation of BV6
-  | +- BV3/         - H-Star + Ring NoC combining 16 homogeneous SPUs 
-  | +- BV4/         - H-Star + Ring NoC heterogeneous clusters
-  +- misc/          - Simulation monitor, etc
-  +- cmake-modules/ - CMake module extension
+Will be updated later
 
 SystemC & TLM
 -------------
